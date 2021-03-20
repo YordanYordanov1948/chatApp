@@ -58,7 +58,9 @@ const Register = () => {
               </Button>
             </Segment>
           </Form>
-          <Message>Already an a user? <Link to = "/login"> Login </Link></Message>
+          <Message>
+            Already an a user? <Link to="/login"> Login </Link>
+          </Message>
         </Grid.Column>
       </Grid>
     </Container>
