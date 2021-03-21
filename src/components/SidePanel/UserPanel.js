@@ -38,7 +38,7 @@ class UserPanel extends React.Component {
     return (
       <Grid style={{ background: "#80ced6" }}>
         <Grid.Column>
-          <Grid.Row style={{ padding: "1.2em", margin: 0 }}>
+          <Grid.Row style={{ padding: "1em", margin: 0 }}>
             <Header inverted floated="left" as="h2">
               <Icon name="rocketchat" />
               <Header.Content>ChatBook</Header.Content>
