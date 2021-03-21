@@ -1,11 +1,30 @@
-import React from 'react';
+import React from "react";
+import { Segment, Comment } from "semantic-ui-react";
+import styled from "styled-components";
 
-const Messages = () => {
+import MessagesHeader from "./MessagesHeader";
+import MessageForm from "./MessageForm";
+
+class Messages extends React.Component {
+  render() {
     return (
-        <div>
-            <h1>Messages</h1>
-        </div>
-    )
+      <React.Fragment>
+        <MessagesHeader />
+
+        <Segment>
+          <Group>
+            <Comment.Group></Comment.Group>
+          </Group>
+        </Segment>
+
+        <MessageForm />
+      </React.Fragment>
+    );
+  }
 }
 
 export default Messages;
+
+const Group = styled.div`
+  height: 50vh;
+`;

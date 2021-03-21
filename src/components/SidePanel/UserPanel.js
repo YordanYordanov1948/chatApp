@@ -36,7 +36,7 @@ class UserPanel extends React.Component {
 
   render() {
     return (
-      <Grid style={{ background: "#80ced6" }}>
+      <Grid>
         <Grid.Column>
           <Grid.Row style={{ padding: "1em", margin: 0 }}>
             <Header inverted floated="left" as="h2">
